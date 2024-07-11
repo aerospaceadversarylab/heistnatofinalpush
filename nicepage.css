@@ -44098,10 +44098,9 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
-.u-header .u-nav-3 {
+.u-header .u-nav-2 {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
@@ -44112,6 +44111,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-right: 0;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 
@@ -44160,7 +44163,15 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 36px;
+    min-height: 120px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    height: 43px;
+    width: 96px;
+    min-width: 42px;
+    margin-top: 39px;
+    margin-bottom: 39px;
   }
 }
 
